@@ -13,7 +13,10 @@ PodSquadz-Backend
 
      python manage.py migrate
 
+###To make migrations within Docker
+
+     python manage.py makemigrations
+
 ###To create a superuser within Docker
 
      python manage.py createsuperuser --email a@a.com
-
